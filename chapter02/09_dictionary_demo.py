@@ -28,10 +28,33 @@ print(f"Removed product: {removed_product}")
 print("Products after deletion:", products)
 
 # popitem() remove 'last item
-product = products.popitem()
-print(product)
-print(type(product))
+# product = products.popitem()
+# print(product)
+# print(type(product))
 
 key, value = products.popitem()
 print(f"{key} : {value}")
 print(products)
+
+key_to_check = 2
+
+if key_to_check in products:
+    print(f"{key_to_check} exists.")
+else:
+    print(f"{key_to_check} doesn't exist.")
+
+#Get keys from a dictionary
+for key in products.keys():
+    print(key)
+
+#Get values from a dictionary
+for value in products.values():
+    print(value)
+
+#iterate a dictionary
+for key in products.keys():
+    print(f"{key} : {products[key]}")
+
+print("--------------------------")
+for key, value in products.items():
+    print(f"{key} : {value}")
