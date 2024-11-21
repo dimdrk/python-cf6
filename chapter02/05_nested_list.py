@@ -10,6 +10,10 @@ print(f"nested list: {nest_list}")                                  # [[1, 2], [
 print(f"first nested list: {nest_list[0]}")                         # [1, 2]
 print(f"first element of second nested list: {nest_list[1][0]}")    # 3
 
+# [3, 4], [1, 2]
+print(f"second and first nested list: {nest_list[1]}, {nest_list[0]}")
+print(f"second and first nested list: {nest_list[:2][::-1]}")
+
 for outer_item in nest_list:
     for inner_item in outer_item:
         if inner_item % 2 == 0:
