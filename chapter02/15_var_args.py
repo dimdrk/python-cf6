@@ -9,7 +9,7 @@ def main():
     print_cities("Athens", "London", "Paris")
     print_cities("Athens")
     print_cities()
-    pass
+
 
 if __name__ == "__main__":
     main()
