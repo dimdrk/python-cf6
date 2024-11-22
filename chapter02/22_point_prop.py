@@ -22,7 +22,8 @@ class Point:
         
     def __lt__(self, other):
         if isinstance(other, Point):
-            return self.__x < other.__x and self.__y < other.__y
+            return (self.__x <= other.__x and self.__y < other.__y) \
+                    or (self.__x < other.__x and self.__y <= other.__y)
         else:
             return False
 
