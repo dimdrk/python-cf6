@@ -17,5 +17,9 @@ def main():
     print_id("str1", str1)
     print_id("str2", str2)
 
+    b= 20
+    print_id("a", a)
+    print_id("b", b)
+
 if __name__ == "__main__":
     main()
