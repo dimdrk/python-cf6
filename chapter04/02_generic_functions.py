@@ -1,7 +1,7 @@
 from typing import TypeVar
 
 # Declare Generic Type Variable
-t = TypeVar('T')
+T = TypeVar('T')
 
 Number = TypeVar("Number", int, float)
 
