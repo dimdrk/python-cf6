@@ -20,5 +20,5 @@ print(f"New result: {new_result}")
 
 print("----------------------------------")
 # team work!
-team_work_result = reduce(lambda x, y: print(f"{x} * {y} = {result}") or x * y, range(1, n + 1))
+team_work_result = reduce(lambda x, y: print(f"{x} * {y} = {x * y}") or x * y, range(1, n + 1))
 print(f"Team work result: {team_work_result}")
