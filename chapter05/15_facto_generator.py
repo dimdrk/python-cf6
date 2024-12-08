@@ -12,7 +12,7 @@ def main():
     for i in range(7):
         print(f"{i}! = {next(f)}")
 
-    print(next(f))
+    print(next(f))      # (7! = )5040
 
 if __name__ == '__main__':
     main()
